@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .banner {
+            background-color: #f2f2f2;
+            padding: 50px 0;
+            text-align: center;
+        }
+        .destaque, .novidades, .galeria {
+            padding: 20px 0;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .login-form {
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f2f2f2;
+        }
+        .login-form h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .login-form input[type="text"],
+        .login-form input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        .login-form button {
+            width: 100%;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+       
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="banner">
+    <h1>Bem-vindo ao nosso site!</h1>
+</section>
+
+<section class="destaque">
+    <h2>Destaques</h2>
+    <!-- Aqui você pode adicionar conteúdo em destaque -->
+    <section class="destaque">
+    <div class="container">
+        <h2>Destaque da Semana</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card bg-primary">
+                    <img class="card-img-top" src="img/c589f52c7dfb2e160862e757959a4b97.jpg" alt="Imagem do produto">
+                    <div class="card-body">
+                        <h5 class="card-title">Vestido Floral</h5>
+                        <p class="card-text">Este lindo vestido floral é perfeito para os dias ensolarados da primavera. Feito com tecido leve e confortável.</p>
+                        <a href="#" class="btn btn-light">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-success">
+                    <img class="card-img-top" src="img/18220971_40731600_1000.webp" alt="Imagem do produto">
+                    <div class="card-body">
+                        <h5 class="card-title">Blusa Listrada</h5>
+                        <p class="card-text">Esta blusa listrada é uma peça versátil que pode ser combinada com jeans para um look casual ou com saia para uma ocasião mais formal.</p>
+                        <a href="#" class="btn btn-light">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-danger">
+                    <img class="card-img-top" src="img/a02bdfda-a711-4889-902e-6a38f9aa75551-7c7cea72104c600cac16931874368677-640-0.jpeg" alt="Imagem do produto">
+                    <div class="card-body">
+                        <h5 class="card-title">Calça Jeans Skinny</h5>
+                        <p class="card-text">A calça jeans skinny é um clássico do guarda-roupa feminino. Esta é feita com um jeans de alta qualidade e possui um ajuste perfeito.</p>
+                        <a href="#" class="btn btn-light">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</section>
+
+<section class="novidades">
+    <h2>Novidades</h2>
+    <!-- Aqui você pode adicionar as últimas novidades -->
+    <section class="novidades">
+    <div class="container">
+        <h2>Últimas Novidades</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card bg-info">
+                    <img class="card-img-top" src="img/H3ccc7d6ca34a44ebb7068ecbfccae601o.jpg_640x640Q90.jpg_.webp" alt="Imagem do produto">
+                    <div class="card-body">
+                        <h5 class="card-title">Casaco de Inverno</h5>
+                        <p class="card-text">Fique aquecido neste inverno com nosso novo casaco de lã. Disponível em várias cores elegantes.</p>
+                        <a href="#" class="btn btn-light">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-warning">
+                    <img class="card-img-top" src="img/vestido-longo-festa-pink.jpg" alt="Imagem do produto">
+                    <div class="card-body">
+                        <h5 class="card-title">Vestido de Festa</h5>
+                        <p class="card-text">Seja o centro das atenções em qualquer festa com nosso novo vestido de festa. Elegância garantida!</p>
+                        <a href="#" class="btn btn-light">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-secondary">
+                    <img class="card-img-top" src="img/37eceba0bb7e49010ee8024adaac59e0.webp" alt="Imagem do produto">
+                    <div class="card-body">
+                        <h5 class="card-title">Jaqueta de Couro</h5>
+                        <p class="card-text">Adicione um toque de estilo ao seu look com nossa nova jaqueta de couro. Perfeita para qualquer ocasião.</p>
+                        <a href="#" class="btn btn-light">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+</section>
+
+<section class="galeria">
+    <h2>Galeria</h2>
+    <!-- Aqui você pode adicionar uma galeria de imagens -->
+
+</section>
+
+<footer>
+    <p>&copy; 2024 - Todos os direitos reservados</p>
+</footer>
+
+</body>
+</html>
